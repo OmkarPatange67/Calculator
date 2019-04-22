@@ -1,0 +1,70 @@
+*{
+		margin: 0;
+		padding: 0;	
+    }
+
+    body{
+    	background: linear-gradient(30deg, red, blue);
+    	background-size: cover;
+    	background-attachment: fixed;
+    }
+
+    [name="inputbox"]{
+        width: 300px;
+        height: 50px;
+        font-size: 25px;
+        padding: 10px 15px;
+        border: none;
+        outline: none;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        color: black;
+        letter-spacing: 1px;
+    }
+
+    [type="button"]{
+    	width: 70px;
+    	height: 70px;
+    	margin: 2px;
+    	font-size: 25px;
+    	font-weight: 100;
+    	background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.8)) , #607dab;
+    	border: none !important;
+    	outline: none !important;
+    	cursor: pointer;
+    	color: white;
+    	border-radius: 10px;
+    	transition: .2s;
+    }
+
+    [type="button"]:active{
+    	transform: scale(0.5);
+    	background: none;
+    }
+
+    [type="button"]:hover{
+    	font-size: 35px;
+    	background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , #607dab;
+    }
+
+    .main{
+    	position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	transform: translate(-50%, -50%);
+    	text-align: center;
+    }
+    .widths{
+
+    	width: 150px;
+    }
+    .widthss{
+    	width: 150px;
+    	font-size: 45px !important;
+    	transition: .2s;
+    }
+
+    .widthss:hover{
+    	font-size: 60px !important;
+    }
